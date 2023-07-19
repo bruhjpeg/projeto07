@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPA</title>
-    <script type="module" src="js/index.js" target></script>
+    <script type="module" src="js/index.js" defer></script>
   </head>
   <body>
     <nav>
-      <a href="/" onclick="route()">Home</a>
-      <a href="/about" onclick="route()">About</a>
-      <a href="/contact" onclick="route()">Contact</a>
-      <a href="/404" onclick="route()">404</a>
+      <a href="/pages/home.html" onclick="route()">Home</a>
+      <a href="pages/about.html" onclick="route()">About</a>
+      <a href="pages/contact.html" onclick="route()">Contact</a>
+      <a href="pages/404.html" onclick="route()">404</a>
     </nav>
-
     <div id="app"></div>
   </body>
 </html>
